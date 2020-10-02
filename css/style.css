@@ -1,0 +1,509 @@
+﻿/*common CSS part start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'PT Sans', 
+        sans-serif;
+}
+
+/*common CSS part end*/
+/*-----------------------------------------------------------------------------------*/
+
+/*nav bar part start*/
+
+.navbar-nav{
+  padding-left: 30px;  
+}
+
+.navbar-nav .nav-item{
+    padding-right: 63px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family:'PT Sans';
+    font-size:22px ;
+    font-weight:700 ;
+    color: #fff;
+    
+}
+
+.menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/*nav bar part end*/
+/*-----------------------------------------------------------------------------------*/
+
+/*banner part start*/
+
+.banner{
+    background-color: #fcdb00;
+    position: relative;
+    padding-bottom:110px ;
+}
+
+.ban_con{
+    padding-top: 255px;
+}
+
+.ban_con h1{
+    font-family:'PT Sans';
+    font-size:32px ;
+    font-weight:700 ;
+    color: #000;
+}
+
+.ban_con h4{
+    font-family:'PT Sans';
+    font-size:20px ;
+    font-weight:500 ;
+    color: #313841;
+    padding-top: 22px;
+}
+
+.ban_con p{
+    font-family:'PT Sans';
+    font-size:16px ;
+    font-weight:400 ;
+    color: #807749;
+    padding-top: 22px;
+}
+
+.con_pic{
+    padding-top: 180px;
+}
+
+.con_pic img{
+    border-radius: 30px;
+}
+
+.ban_icon i{
+    font-size:42px ;
+    padding-right:36px ;
+}
+
+.ban_icon{
+    padding-right:36px ;
+}
+
+.carousel-indicators li{
+    height:15px ;
+    width:15px ;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+/*banner part end*/
+/*-----------------------------------------------------------------*/
+
+/*====isitop part start====*/
+
+/* ---- button-group ---- */
+
+.isotop{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #010101;
+}
+
+.ui-group{
+    padding-top: 50px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: -1px;
+  background-color: #fcdb00;
+  height: 50px;
+  width: 100px;
+  font-family: 'Amita', cursive;
+  font-size: 25px; 
+}
+
+.button-group .button:hover{
+    color: red;
+}
+
+
+.button-group .button:first-child { border-radius: 5px 0 0 5px; }
+.button-group .button:last-child { border-radius: 0 5px 5px 0; }
+ 
+}
+
+
+.hero{
+    margin-left: 50px;
+}
+
+.grid{
+    padding-top: 80px;
+}
+
+.grid .sajjad{
+    margin-right:73px;
+    padding-bottom: 20px;
+}
+
+.feature{
+   padding-top:120px ;
+   padding-bottom:165px ;
+}
+
+.feature_Heading{
+    text-align: center;
+}
+
+.feature_Heading h1{
+    font-family:'PT Sans';
+    font-size:32px ;
+    font-weight:700 ;
+    color: #fcdb00;
+}
+
+.feature_Heading p{
+    font-family:'PT Sans';
+    font-size:20px ;
+    font-weight:500 ;
+    color: #898989;
+}
+
+.feature_subjects_1{
+    padding-top: 95px;
+}
+
+.icon{
+    font-size: 43px;
+    margin-top: -10px;
+    color: #fff;
+}
+
+.icon i{
+    color: #fff;
+}
+
+.text h3{
+    font-family:'PT Sans';
+    font-size:22px ;
+    font-weight:700 ;
+    color: #898989;
+}
+
+.text p{
+    font-family:'PT Sans';
+    font-size:16px ;
+    font-weight:400 ;
+    color: #807749;
+    padding-top: 3px;
+}
+
+*/
+/*====isitop part end====*/
+/*---------------------------------------------------------------------*/
+
+
+/*====Feature Part Start====*/
+
+/*FEARURE PAET IS INCLUDED ISOTOP PART*/
+
+/*====Feature Part End====*/
+
+/*==== Navigation code start=====*/
+  
+  #navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 111;
+    transition: all linear .3s;
+}
+  
+  
+.navfixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 !important;
+    background: #fcdb00 !important;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+    transition: all linear 0.5s;
+}
+
+.navfixed .nav-item .nav-link {
+    font-size: 16px;
+    color: #C70039  !important;
+    transition: 0.4s;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#navigation .nav-item {
+    padding-left: 15px;
+}
+
+#navigation .navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    transition: all linear 0.5s;
+}
+
+.navfixed .navbar {
+    padding: 0;
+    height: 80px;
+}
+
+.navfixed .navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff !important;
+    transition: all linear 0.5s;
+}
+
+#navigation .navbar-light .navbar-nav .active > .nav-link {
+    color: #6b2bc3;
+}
+
+#navigation .nav-item .nav-link {
+    font-size: 16px;
+    color: #000;
+    transition: 0.4s;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    display: block;
+}
+
+#navigation .navbar-light .navbar-nav .nav-link:focus,
+#navigation .navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navfixed .navbar-light .navbar-nav .nav-link:focus,
+.navfixed .navbar-light .navbar-nav .nav-link:hover {
+    color: #000 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+/*  ==== Navigation code end=====*/
+
+/*=====Glarry Part Start====*/
+
+.glarry_Heading{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.glarry_Heading h1{
+    font-family:'PT Sans';
+    font-size:32px ;
+    font-weight:700 ;
+    color: #000;
+}
+
+.glarry_Heading p{
+    font-family:'PT Sans';
+    font-size:20px ;
+    font-weight:500 ;
+    color: #000;
+}
+
+.slick-dots li{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+/*=====Glarry Part End====*/
+/*-------------------------------------------------------------------------------------------------*/
+
+/*=====venobox part start======*/
+
+.vedio_glarry_Heading{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.vedio_glarry_Heading h1{
+    font-family:'PT Sans';
+    font-size:32px ;
+    font-weight:700 ;
+    color: #000;
+}
+
+.vedio_glarry_Heading p{
+    font-family:'PT Sans';
+    font-size:20px ;
+    font-weight:500 ;
+    color: #000;
+}
+
+.vedio_glarry{
+    padding-bottom: 100px;
+}
+/*=====venobox part start======*/
+/*---------------------------------------------------------------------------------------*/
+
+
+/*====touch part start====*/
+
+.touch_t{
+   padding-top:120px ;
+   padding-bottom:165px ;
+   background-color: #010101;
+}
+
+.touch_heading{
+    text-align: center;
+    background-color: #010101;
+}
+
+.touch_heading h1{
+    font-family:'PT Sans';
+    font-size:32px ;
+    font-weight:700 ;
+    color: #fcdb00;
+}
+
+.touch_heading p{
+    font-family:'PT Sans';
+    font-size:20px ;
+    font-weight:500 ;
+    color: #898989;
+}
+
+.text_box{
+    margin-left:173px ;
+    padding:12px 18px ;
+    width: 623px;
+/*    height: 50px;*/
+}
+
+.text_box input{
+    border:none ;
+    background: ;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+
+.sub_butt{
+    background-color:#fcdb00;
+    width: 126px;
+    margin: 12px 0px 0px 36px;
+    border-radius: 5px;
+}
+
+.sub_butt a{
+    display: block;
+    padding:14px 37px 11px 32px ;
+    text-decoration: none;
+}
+
+.all_icon ul{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.all_icon ul li{
+    float: left;
+    margin-left: 15px;   
+}
+
+.all_icon ul li a{
+    
+}
+
+.all_icon ul li a i{
+    padding: 5px 8px 1px 9px;
+    font-size: 30px;
+    color: #000;
+    background-color: #fcdb00;
+    border-radius: 5px;
+}
+
+.information{
+    padding-top: 135px;
+}
+
+.information p{
+    font-family:'PT Sans';
+    font-size:16px ;
+    font-weight:400 ;
+    color: #fff;
+}
+/*====touch part end====*/
+/*------------------------------------------------------------------------------------------*/
+
+/* ====  to_top css code start ====*/
+  
+  .top_to {
+    height: 40px;
+    width: 40px;
+    background: #020031;
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: none;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+    border-radius: 50%;
+    z-index: 999999;
+}
+.clear{
+    clear: both;
+}
+.top_to:hover {
+    color: #fff;
+    background: #37a9e0;
+}
+
+.top_to:hover a {
+    color: #fff;
+
+}
+
+
+/*  ====  to_top css code end ====*/
